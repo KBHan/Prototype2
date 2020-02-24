@@ -3,12 +3,12 @@ import '../styles/Title.css';
 
 function Title() {
   return (
-    <div className="Title">
-      <div className="Title-main">FY21 February Remaining Balance Report</div>
-      <br></br>
-      <div className="Title-school-name">BR 0150 Oakland</div>
-      <div className="Title-fp">By Mario Mrva, Financial Partner</div>
-    </div>
+      <div className="Title">
+        <div className="Main">FY21 February Remaining Balance Report</div>
+        <div className="School-name">BR 0150 Oakland Elementary School</div>
+        <div className="School-name">By Mario Mrva, Financial Partner</div>
+        <br/><br/><br/><br/>
+      </div>
   );
 }
 

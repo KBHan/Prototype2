@@ -1,16 +1,45 @@
 .Title {
+    background-color: #282c34;
     color:  #61dafb;
     font-family: 'Goudy Old Style';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
 }
 
-.Title-main {
+.Title-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*font-size: calc(10px + 2vmin);*/
+    color: white;
+  }
+
+.Title .Main {
     font-size: 36px;
 }
 
-.Title-school-name{
+.Title .School-name{
     font-size: 24px;
+    position: relative;
 }
 
 .Title-fp {
     font-size:20px;
+}
+
+.Title .Link-data {
+    color: #61dafb;
+    font-size: 20px;
+}
+
+.Title-tab {
+    position: relative;;
+    left:50px; 
 }
