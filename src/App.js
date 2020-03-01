@@ -19,6 +19,7 @@ function App() {
           <Route path="/FinancialData" component={FinancialData} />
           <Route path="/AccountDetail" component={AccountDetail} />
         </Switch>
+        <div className="footer">CREATED BY: KYUBOK_HAN@DPSK12.ORG</div>
       </div>
     </Router>
   );
