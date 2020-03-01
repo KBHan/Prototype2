@@ -16,6 +16,9 @@ export default function Nav() {
         <Link className="nav-links" to="/FinancialData">
           <li>Financial Data</li>
         </Link>
+        <Link className="nav-links" to="/AccountDetail">
+          <li>Account Detail</li>
+        </Link>
       </ul>
     </nav>
     

@@ -1,15 +1,22 @@
 import React from 'react';
 import '../styles/Summary.css';
 
+
 function Summary() {
+    const summary_data = {
+        budget: 1000000,
+        amount: 600000,
+        balance: 400000
+    }
+    
   return (
       <summary>
           <div>
-              <table>
+              <table className="summary-table">
                   <tr>
                       <td>
                         <ul>
-                            <li>Enorllment: </li>
+                            <li>Enrollment: </li>
                             <li>Budget: </li>
                             <li>Expense: </li>
                             <li>Balance: </li>
@@ -17,10 +24,10 @@ function Summary() {
                       </td>
                       <td>
                           <ul className="data-list">
-                              <li className="data-list">300</li>
-                              <li className="data-list">$ 1,000,000</li>
-                              <li className="data-list"> $ 600,000</li>
-                              <li className="data-list">$ 400,000</li>
+                              <li >300</li>
+                              <li >$ { summary_data.budget }</li>
+                              <li >$ { summary_data.amount }</li>
+                              <li >$ { summary_data.balance }</li>
                           </ul>
                       </td>
                   </tr>
