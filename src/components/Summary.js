@@ -11,29 +11,101 @@ function Summary() {
     
   return (
       <summary>
-          <div>
-              <table className="summary-table">
-                  <tr>
-                      <td>
-                        <ul>
-                            <li>Enrollment: </li>
-                            <li>Budget: </li>
-                            <li>Expense: </li>
-                            <li>Balance: </li>
-                        </ul>
-                      </td>
-                      <td>
-                          <ul className="data-list">
-                              <li >300</li>
-                              <li >$ { summary_data.budget }</li>
-                              <li >$ { summary_data.amount }</li>
-                              <li >$ { summary_data.balance }</li>
-                          </ul>
-                      </td>
-                  </tr>
-              </table>
-          </div>
-          <br/><br/><br/><br/>
+          <div className="title">Summary</div>
+          <div className="tables">
+            <table className="table1">
+                 <tr>
+                    <td>
+                        <div className="border-up">ENROLLMENT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BUDGET</div>
+                    </td>
+                    <td>
+                        <div className="border-up">ACT AMOUT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BALANCE</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div className="border-div">300</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.budget }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.amount }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.balance }</div>
+                    </td>
+                </tr>
+            </table>
+            <br/><br/>
+            <table className="table2">
+                 <tr>
+                    <td>
+                        <div className="border-up">ENROLLMENT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BUDGET</div>
+                    </td>
+                    <td>
+                        <div className="border-up">ACT AMOUT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BALANCE</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div className="border-div">300</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.budget }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.amount }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.balance }</div>
+                    </td>
+                </tr>
+            </table>
+            <br/><br/>
+            <table className="table3">
+                 <tr>
+                    <td>
+                        <div className="border-up">ENROLLMENT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BUDGET</div>
+                    </td>
+                    <td>
+                        <div className="border-up">ACT AMOUT</div>
+                    </td>
+                    <td>
+                        <div className="border-up">BALANCE</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div className="border-div">300</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.budget }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.amount }</div>
+                    </td>
+                    <td>
+                        <div className="border-div">$ { summary_data.balance }</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
       </summary>
   );
 }
