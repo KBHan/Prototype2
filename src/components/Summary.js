@@ -43,7 +43,7 @@ function Summary() {
                     </td>
                 </tr>
             </table>
-            <br/><br/>
+            <br/>
             <table className="table2">
                  <tr>
                     <td>
@@ -74,7 +74,7 @@ function Summary() {
                     </td>
                 </tr>
             </table>
-            <br/><br/>
+            <br/>
             <table className="table3">
                  <tr>
                     <td>
@@ -105,6 +105,7 @@ function Summary() {
                     </td>
                 </tr>
             </table>
+            <br/>
         </div>
       </summary>
   );

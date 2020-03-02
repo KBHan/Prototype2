@@ -1,4 +1,6 @@
 nav {
+    font-family: 'Goudy Old Style';
+    font-size: 1.4em;
     display: flex; /* left align? */
     justify-content: space-around; /* centered */
     align-items: center;
@@ -8,7 +10,7 @@ nav {
 }
 
 .nav-links {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
